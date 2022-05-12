@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMelhorQueNetflix.Categorias.Aventura">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="Black">
+            <Image x:Name="img_logo" HeightRequest="100"/>
+
+            <ScrollView>
+
+                <Grid 
+                      ColumnDefinitions="*,*"
+                      RowDefinitions="300,300,300, 300">
+
+
+                    <ImageButton x:Name="btn_spiderman"
+                                 Grid.Row="0"
+                                 Grid.Column="0"
+                                 Clicked="btn_spiderman_Clicked"
+                                 Aspect="Fill"
+                                 BorderColor="DarkRed"
+                                 BorderWidth="4">
+                    </ImageButton>
+
+                    <ImageButton x:Name="btn_uncharted"
+                                 Grid.Row="0"
+                                 Grid.Column="1"
+                                 Clicked="btn_uncharted_Clicked"
+                                 Aspect="Fill"
+                                 BorderColor="DarkRed"
+                                 BorderWidth="4">
+                    </ImageButton>
+
+                    <ImageButton x:Name="btn_esquadrao_suic"
+                                 Grid.Row="1"
+                                 Grid.Column="0"
+                                 Clicked="btn_esquadrao_suic_Clicked"
+                                 Aspect="Fill"
+                                 BorderColor="DarkRed"
+                                 BorderWidth="4">
+                    </ImageButton>
+
+                    <ImageButton x:Name="btn_viuvanegra"
+                                 Grid.Row="1"
+                                 Grid.Column="1"
+                                 Clicked="btn_viuvanegra_Clicked"
+                                 Aspect="Fill"
+                                 BorderColor="DarkRed"
+                                 BorderWidth="4">
+                    </ImageButton>
+
+                    <ImageButton x:Name="btn_godzillavskong"
+                                 Grid.Row="2"
+                                 Grid.Column="0"
+                                 Clicked="btn_godzillavskong_Clicked"
+                                 Aspect="Fill"
+                                 BorderColor="DarkRed"
+                                 BorderWidth="4">
+                    </ImageButton>
+
+                    <ImageButton x:Name="btn_moonfall"
+                                 Grid.Row="2"
+                                 Grid.Column="1"
+                                 Clicked="btn_moonfall_Clicked"
+                                 Aspect="Fill"
+                                 BorderColor="DarkRed"
+                                 BorderWidth="4">
+                    </ImageButton>
+
+
+
+                </Grid>
+                
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

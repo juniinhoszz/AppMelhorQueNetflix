@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMelhorQueNetflix.MainPage"
+             BackgroundColor="Black">
+
+    <Grid BackgroundColor="Black"
+          VerticalOptions="Start"
+          ColumnDefinitions="*,*"
+          RowDefinitions="*,*,*">
+        <Label Grid.Row="0" Grid.Column="0" Text="" />
+        <Image x:Name="img_logo" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"  HeightRequest="115"/>
+        
+        
+        <Button     x:Name="btn_aventura"
+                    Text="Aventura"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Center"
+                    Clicked="btn_aventura_Clicked">
+
+        </Button>
+
+        <Button     x:Name="btn_comedia"
+                    Text="Comédia"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Center"
+                    Clicked="btn_comedia_Clicked">
+                    
+        </Button>
+
+        <Button     x:Name="btn_drama"
+                    Text="Drama"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Center"
+                    Clicked="btn_drama_Clicked">
+
+        </Button>
+
+        <Button     x:Name="btn_acao"
+                    Text="Ação"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Center"
+                    Clicked="btn_acao_Clicked">
+
+        </Button>
+
+        <Button     x:Name="btn_terror"
+                    Text="Terror"
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Center"
+                    Clicked="btn_acao_Clicked">
+
+        </Button>
+
+        <Button     x:Name="btn_suspense"
+                    Text="Suspense"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Center"
+                    Clicked="btn_suspense_Clicked">
+
+        </Button>
+
+        
+
+       
+
+
+    </Grid>
+
+    
+
+</ContentPage>

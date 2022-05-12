@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMelhorQueNetflix.Categorias.Comedia">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="Black">
+            <Image x:Name="img_logo" HeightRequest="100"/>
+
+            <ScrollView>
+
+                <Grid 
+                      ColumnDefinitions="*,*"
+                      RowDefinitions="300,300,300, 300">
+
+
+                    <ImageButton x:Name="btn_bigbug"
+                                 Grid.Row="0"
+                                 Grid.Column="0"
+                                 Clicked="btn_bigbug_Clicked"
+                                 Aspect="Fill"
+                                 BorderColor="DarkRed"
+                                 BorderWidth="4">
+                    </ImageButton>
+
+                    
+
+
+
+                </Grid>
+
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

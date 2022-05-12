@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMelhorQueNetflix.Filmes.moonfall">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="Black">
+
+            <Image x:Name="img_logo" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"  HeightRequest="115"/>
+
+
+            <Grid ColumnDefinitions="*, *"
+                  RowDefinitions="300,*">
+
+                <WebView x:Name="visu"
+                         Grid.Column="0" Grid.Row="0"
+                         Grid.ColumnSpan="2"
+                         VerticalOptions="FillAndExpand"
+                         BackgroundColor="#2f2f30" />
+
+                <Image x:Name="img_filme" 
+                       Grid.Row="1" Grid.Column="0"
+                       Aspect="Fill"/>
+
+                <StackLayout Grid.Row="1" Grid.Column="1">
+                    <Label Text="Nome: " TextColor="red" FontSize="20"/>
+                    <Label Text="Moonfall - Ameaça Lunar " TextColor="White" FontSize="20"/>
+                    <Label Text="Data de lançamento: " TextColor="Red" FontSize="20"/>
+                    <Label Text="10 de fevereiro de 2022 " TextColor="White" FontSize="20"/>
+                    <Label Text="Direção: " TextColor="Red" FontSize="20"/>
+                    <Label Text="Roland Emmerich " TextColor="White" FontSize="20"/>
+
+
+                </StackLayout>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
